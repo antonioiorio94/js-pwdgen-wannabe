@@ -15,3 +15,5 @@ document.getElementById("colore").innerText = colorePreferito;
 const nuovaPassword = (nomeUtente + cognomeUtente + colorePreferito + "21");
 
 console.log(nuovaPassword);
+
+document.getElementById("password").innerText = nuovaPassword;
